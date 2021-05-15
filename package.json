@@ -1,0 +1,35 @@
+{
+  "name": "hugo-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenotea/hugo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenotea/hugo/issues"
+  },
+  "homepage": "https://github.com/tenotea/hugo#readme",
+  "bin": {
+    "hugo": "dist/index.js"
+  },
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "express": "^4.17.1",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^15.0.3",
+    "@types/yargs": "^16.0.1",
+    "pm2": "^4.5.6"
+  }
+}
